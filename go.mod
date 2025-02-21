@@ -25,7 +25,7 @@ require (
 	github.com/gospider007/tools v0.0.0-20240506025307-b6a12cb9b897 // indirect
 	github.com/gospider007/websocket v0.0.0-20240331132617-8217ca7a8439 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
-	github.com/klauspost/compress v1.17.11 // indirect
+	github.com/klauspost/compress v1.18.0 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.9 // indirect
 	github.com/libdns/libdns v0.2.3 // indirect
 	github.com/mholt/acmez/v3 v3.0.1 // indirect
@@ -44,7 +44,7 @@ require (
 	go.uber.org/zap v1.27.0 // indirect
 	go.uber.org/zap/exp v0.3.0 // indirect
 	golang.org/x/crypto v0.33.0 // indirect
-	golang.org/x/exp v0.0.0-20250215185904-eff6e970281f // indirect
+	golang.org/x/exp v0.0.0-20250218142911-aa4b98e5adaa // indirect
 	golang.org/x/image v0.24.0 // indirect
 	golang.org/x/mod v0.23.0 // indirect
 	golang.org/x/net v0.35.0 // indirect
