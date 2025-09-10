@@ -40,10 +40,8 @@ func (obj *Client) streamLoad(ctx context.Context, db, table string, isDelete bo
 		headers["merge_type"] = "DELETE"
 	}
 	resp, err := requests.Put(ctx, fmt.Sprintf("%s/%s/%s/_stream_load", obj.baseUrl, db, table), requests.RequestOption{
-		ClientOption: requests.ClientOption{
-			Headers: headers,
-		},
-		Json: datas,
+		Headers: headers,
+		Json:    datas,
 	})
 	if err != nil {
 		return err
