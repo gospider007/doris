@@ -1,6 +1,6 @@
 module github.com/gospider007/doris
 
-go 1.25
+go 1.26.0
 
 require github.com/gospider007/requests v0.0.0-20240620005847-9bf5cb6bb280
 
