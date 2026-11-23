@@ -2,7 +2,7 @@ module github.com/gospider007/doris
 
 go 1.27.0
 
-require github.com/gospider007/requests v0.0.0-20261123061753-ff8eec231474
+require github.com/gospider007/requests v0.0.0-20261123061829-2f6b5b08812c
 
 require (
 	github.com/Masterminds/semver/v3 v3.5.0 // indirect
